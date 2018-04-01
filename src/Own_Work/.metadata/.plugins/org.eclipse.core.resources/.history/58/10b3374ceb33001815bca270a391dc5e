@@ -1,0 +1,73 @@
+package com.sunbeaminfo.matrix;
+import static com.sunbeaminfo.matrix.Main.*;
+
+import java.util.Scanner;
+public class Matrix {
+	
+	 static int  matall[][];
+	 static int addMat[][];
+	 static int subMat[][];
+	private static Scanner sc = new Scanner(System.in);
+	public static int[][] allocMatrix(int rows, int cols)
+	{
+		int cnt = 0;
+		for(int i=0;i<rows;i++)
+		{
+		  for(int j=0;j<cols;j++)
+		  {
+		      matall[i][j] = ++cnt;  
+		  }
+		 // System.out.println();
+		}
+		 printMatrix(matall);
+		return matall;
+	}
+   public static void acceptMatrix(int [][]mat)
+   {
+	   for(int i = 0;i<mat.length;i++)
+	   {
+		   for(int j=0;j<mat[i].length;j++)
+		   {
+			   mat[i][j] = sc.nextInt();
+			   
+		   }
+	   }
+	   printMatrix(mat);
+   }
+	public static void printMatrix(int [][]mat)
+	{
+		for(int i=0; i<mat.length;i++)
+		{
+			for(int j=0;j<mat[i].length;j++)
+			{
+				System.out.printf("%d\t",mat[i][j]);
+			}
+			System.out.println();
+		}
+	}
+	 public static int[][] addMatrix(int [][]mat1, int [][]mat2)
+	 {
+		 
+		 for(int i=0;i<mat1.length;i++)
+		 {
+			 for(int j= 0;j<mat2.length;j++)
+			 {
+				 addMat[i][j] =mat1[i][j] + mat2[i][j]; 
+			 }
+		 }
+		 printMatrix(addMat);
+		 return addMat;
+	 }
+	 public static int[][] subtractMatrix(int [][]mat1, int [][]mat2)
+	 {
+		 for(int i=0;i<mat1.length;i++)
+		 {
+			 for(int j= 0;j<mat2.length;j++)
+			 {
+				 subMat[i][j] =mat1[i][j] - mat2[i][j]; 
+			 }
+		 }
+		 printMatrix(subMat);
+		 return subMat;
+	 }
+}

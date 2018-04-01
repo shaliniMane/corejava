@@ -1,0 +1,28 @@
+package com.sunbeam.Polymorphism;
+
+import java.util.Scanner;
+
+public class PolymorphismMain {
+	public static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Product p = null;
+		int choice;
+		System.out.println("\n 1.Book \n2. Tape \n Enter choice: ");
+		choice = sc.nextInt();
+		switch (choice) {
+		case 1://Book
+			p = new Book();
+			p.accept();
+			break;
+		case 2: //Tape
+			p = new Tape();
+			p.accept();
+			break;
+		default:
+			break;
+		}
+		p.display();
+		System.out.printf("Bill: %f\n",p.getPrice());
+	}
+	
+}

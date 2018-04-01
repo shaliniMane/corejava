@@ -1,0 +1,31 @@
+package com.sunbeaminfo.matrix;
+
+public class Matrix {
+	
+	public static int[][] allocMatrix(int rows, int cols)
+	{
+		return;
+	}
+   public static void acceptMatrix(int [][]mat)
+   {
+	   
+   }
+	public static void printMatrix(int [][]mat)
+	{
+		for(int i=0; i<mat.length;i++)
+		{
+			for(int j=0;j<mat[i].length;j++)
+			{
+				System.out.printf("%d\t",mat[i][j]);
+			}
+		}
+	}
+	 public static int[][] addMatrix(int [][]mat1, int [][]mat2)
+	 {
+		 return;
+	 }
+	 public static int[][] subtractMatrix(int [][]mat1, int [][]mat2)
+	 {
+		 
+	 }return;
+}

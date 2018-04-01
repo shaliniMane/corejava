@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sunbeaminfo.geometry.shapes2D.Rectangle"/>
+<fullyQualifiedTypeName name="com.sunbeaminfo.matrix.Matrix"/>
+<fullyQualifiedTypeName name="com.sunbeaminfo.inheritance.Address"/>
+<fullyQualifiedTypeName name="composition.Address"/>
+<fullyQualifiedTypeName name="com.sunbeaminfo.Address.Address"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="com.sunbeam.Polymorphism.PolymorphismMain"/>
+<fullyQualifiedTypeName name="com.sunbeam.Polymorphism.Book"/>
+<fullyQualifiedTypeName name="com.sunbeam.Polymorphism.Tape"/>
+<fullyQualifiedTypeName name="com.sunbeam.Polymorphism.Product"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.Main"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.MarketingManager"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.Labor"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.Manager"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.Employee"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.VicePrecident"/>
+<fullyQualifiedTypeName name="com.sunbeam.Assign.SalesManager"/>
+<fullyQualifiedTypeName name="com.sunbeaminfo.sorting.Sorting"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

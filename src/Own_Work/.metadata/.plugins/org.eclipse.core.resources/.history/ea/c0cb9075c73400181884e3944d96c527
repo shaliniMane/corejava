@@ -1,0 +1,13 @@
+package com.sunbeam.Assign;
+
+public class MarketingManager extends Manager
+{
+	
+	public double getTotalSalary()
+	{
+		// from super class
+		
+		return TotSal;
+	}
+//	constructors, mutators, inspectors, facilitators;
+}

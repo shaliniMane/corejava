@@ -1,0 +1,30 @@
+package com.sunbeaminfo.matrix;
+import static com.sunbeaminfo.matrix.Matrix.*;
+import java.util.Scanner;
+
+public class Main {
+	private static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [][]mat = new int[2][4];
+		int [][]mat1 = new int[2][4];
+		int [][]mat2 = new int[2][4];
+
+		System.out.println("Enter no of rows and cols:");
+		int rows = sc.nextInt();
+		int cols = sc.nextInt();
+		System.out.println("Allocation Matrix:");
+		allocMatrix(rows,cols);
+		//printMatrix(matall);
+		System.out.println("Accept Matrix:");
+		acceptMatrix(mat);
+		//printMatrix(mat);
+		System.out.println("Addition :");
+		addMatrix(mat1,mat2);
+		System.out.println("Substraction:");
+		subtractMatrix(mat1,mat2);
+		//System.out.printf("%d\t",subMat);
+
+	}
+
+}

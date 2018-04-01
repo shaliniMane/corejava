@@ -1,0 +1,59 @@
+package com.sunbeam.Assign;
+
+public class Labor extends Employee {
+
+	int workHours;
+	double hourRate;
+
+	public Labor()
+	{
+		this.workHours = 0;
+		this.hourRate = 0.0;
+	}
+
+
+	public Labor(int workHours, double hourRate) {
+		super();
+		this.workHours = workHours;
+		this.hourRate = hourRate;
+	}
+
+
+	public int getWorkHours() {
+		return workHours;
+	}
+
+
+	public void setWorkHours(int workHours) {
+		this.workHours = workHours;
+	}
+
+
+	public double getHourRate() {
+		return hourRate;
+	}
+
+
+	public void setHourRate(double hourRate) {
+		this.hourRate = hourRate;
+	}
+
+	//constructors, mutators, inspectors, facilitators;
+	public double getTotalSalary()
+	{
+		double Totsal = workHours * hourRate;
+		return Totsal;
+	}
+	public void accept()
+	{
+		System.out.println("Enter Work hours:");
+		this.workHours = Main.sc.nextInt();
+		System.out.println("Enter hours rate:");
+		this.hourRate = Main.sc.nextInt();
+	}
+	public void display()
+	{
+		System.out.printf("Work hours : %d\n", this.workHours);
+		System.out.printf("hours rate : %s\n", this.hourRate);
+	}
+}

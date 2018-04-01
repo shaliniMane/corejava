@@ -1,0 +1,12 @@
+package com.sunbeam.Polymorphism;
+
+import java.util.Scanner;
+
+public class PolymorphismMain {
+public Scanner sc = new Scanner("System.in");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

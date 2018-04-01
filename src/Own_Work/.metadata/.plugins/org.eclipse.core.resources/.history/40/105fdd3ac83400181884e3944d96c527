@@ -1,0 +1,58 @@
+package com.sunbeam.Assign;
+
+import java.util.Scanner;
+
+
+
+public class Main {
+	
+	
+	public static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Employee[] emp = new Employee[5];
+		
+		Date d1 = new Date(12, 3, 2018);
+		d1.display();
+	
+		/*Employee e1 = new Employee();
+		e1.display();
+		*/
+		Date d2 = new Date(31, 5, 2004);
+		Employee e2 = new Employee(4, "Nilesh", 50000, d2);
+		e2.display();
+		
+		e2.Accept();
+		//e2.display();
+		for(int i=0;i<emp.length;i++)
+		{
+			emp[i].display();
+		}
+		
+		
+		double Totsal = Employee.calculateTotalSalary(emp);
+		
+		System.out.printf("Final Total salary: %f\n",Totsal);
+		
+		Labor l1 =new Labor();
+		l1.Accept();
+		l1.display();
+		l1.getTotalSalary();
+		
+		Manager m =new Manager();
+		m.Accept();
+		m.display();
+	    m.getTotalSalary();
+		
+		SalesManager sm =new SalesManager();
+		sm.Accept();
+		sm.display();
+		sm.getTotalSalary();
+		
+		MarketingManager mm =new MarketingManager();
+		mm.Accept();
+		mm.display();
+		mm.getTotalSalary();
+	
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.sunbeam.Polymorphism;
+
+public class Tape extends Product {
+	private int duration ;
+	public Tape()
+	{
+		this.duration = 0;
+	}
+	public Tape(String title, double price,int duration) {
+		super(title, price);
+		this.duration = duration;
+		
+	}
+	
+}

@@ -1,0 +1,22 @@
+package com.sunbeam.Assign;
+
+public class VicePrecident extends Employee
+{
+	double bonus;
+	public VicePrecident()
+	{
+		this.bonus = 0.0;
+	}
+	
+public VicePrecident(double bonus) {
+		super();
+		this.bonus = bonus;
+	}
+
+	//	constructors, mutators, inspectors, facilitators;
+	public double getTotalSalary()
+	{
+		// basicSalary + 50% DA + bonus
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.sunbeaminfo.sorting;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            int arr[] =new arr;
+		
+		 Sorting.accept(arr);
+	   Sorting.print(arr);
+	   Sorting.sort(arr);
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+package com.sunbeam.Polymorphism;
+
+import java.util.Scanner;
+
+public class PolymorphismMain {
+	public static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Product p = null;
+		int choice;
+		System.out.println("\n 1.Book \n2. Tape \n Enter choice: ");
+		choice = sc.nextInt();
+		switch (choice) {
+		case 1://Book
+			p = new Book();
+			p.accept();
+			break;
+		case 2: //Tape
+			p = new Tape();
+			p.accept();
+			break;
+		default:
+			break;
+		}
+		//displayProduct(p);
+		p.display();
+		System.out.printf("Bill: %f\n",p.getPrice());
+	}
+	public void displayProduct(Product p)
+	{
+		//System.out.printf("Title: %s\nPrice: %f\n",this.Title,this.price);
+		System.out.printf("Title: %s\n",p.getTitle());
+		System.out.printf("Title: %s\n",p.getPrice());
+		if(p instanceof Book)
+		{
+			Book b = (Book)p;
+			System.out.printf("Pages: %d\n",b.getPages());
+	    }
+		if(p instanceof Book)
+		{
+			Tape t = (Tape)p;
+			System.out.printf("Pages: %d\n",t.getDuration());
+	    }
+}
+	
+}

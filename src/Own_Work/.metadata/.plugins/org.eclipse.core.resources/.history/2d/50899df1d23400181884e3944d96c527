@@ -1,0 +1,17 @@
+package com.sunbeaminfo.sorting;
+
+import java.util.Scanner;
+
+public class Main {
+public static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            int arr = new arr[4] ;
+		
+		 Sorting.accept(arr);
+	   Sorting.print(arr);
+	   Sorting.sort(arr);
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class SalesManager {
+    double commision;
+	int target;
+	
+	
+	//constructors, mutators, inspectors, facilitators;
+	public double getTotalSalary()
+	{
+		// basicSalary + 50% DA + commissionpackage com.sunbeam.Assign;
+	}
+
+
+
+}

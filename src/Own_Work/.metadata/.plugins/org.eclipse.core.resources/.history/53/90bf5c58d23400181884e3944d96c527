@@ -1,0 +1,20 @@
+package com.sunbeaminfo.sorting;
+
+public class Sorting {
+	
+	
+	
+	 public static void accept(int arr[])
+	{
+		
+	}
+	 public static void print(int arr[])
+	{
+		
+	}
+	 public static void sort(int arr[])
+	{
+		
+	}
+
+}

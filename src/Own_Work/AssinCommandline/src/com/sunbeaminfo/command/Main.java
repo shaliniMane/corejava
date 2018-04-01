@@ -1,0 +1,18 @@
+package com.sunbeaminfo.command;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+for(int i = 0;i<args.length;i++)
+	System.out.printf("Arg %d => %s \n", i, args[i]);
+	
+System.out.println(args.length);
+for(int i = args.length-1;i>=0;i--)
+{
+	System.out.printf("Arg %d => %s \n", i, args[i]);
+	
+}
+	}
+
+}

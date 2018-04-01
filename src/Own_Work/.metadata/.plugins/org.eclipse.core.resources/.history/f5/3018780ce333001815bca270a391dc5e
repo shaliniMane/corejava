@@ -1,0 +1,16 @@
+package com.sunbeaminfo.matrix;
+import static com.sunbeaminfo.matrix.*;
+import java.util.Scanner;
+
+public class Main {
+	private static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		  System.out.println("Enter element of array:");
+		
+		acceptMatrix(int [][]mat);
+		
+	}
+
+}

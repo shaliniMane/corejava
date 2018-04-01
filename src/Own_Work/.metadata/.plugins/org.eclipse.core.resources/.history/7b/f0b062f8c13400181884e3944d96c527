@@ -1,0 +1,30 @@
+
+public class SalesManager extends Manager {
+    double commission;
+	int target;
+	public SalesManager()
+	{
+		this.commission = 0.0;
+		this.target = 0;
+	}
+	
+	
+	public SalesManager(double commision, int target) {
+		super();
+		this.commission = commision;
+		this.target = target;
+	}
+
+
+	//constructors, mutators, inspectors, facilitators;
+	public double getTotalSalary()
+	{
+		double DA = (Basicsalary * 50)/100;
+		double totsal = Basicsalary + DA  + commission;
+		return totsal;
+		// basicSalary + 50% DA + commission;
+	}
+
+
+
+}

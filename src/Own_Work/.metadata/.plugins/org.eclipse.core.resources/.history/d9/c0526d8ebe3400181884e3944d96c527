@@ -1,0 +1,27 @@
+
+public class SalesManager {
+    double commision;
+	int target;
+	public SalesManager()
+	{
+		this.commision = 0.0;
+		this.target = 0;
+	}
+	
+	
+	public SalesManager(double commision, int target) {
+		super();
+		this.commision = commision;
+		this.target = target;
+	}
+
+
+	//constructors, mutators, inspectors, facilitators;
+	public double getTotalSalary()
+	{
+		// basicSalary + 50% DA + commissionpackage com.sunbeam.Assign;
+	}
+
+
+
+}

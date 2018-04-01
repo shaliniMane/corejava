@@ -1,0 +1,22 @@
+package composition;
+
+import java.util.Scanner;
+
+public class CompositionMain {
+	public static void main(String[] args) {
+		Date d1 = new Date(12, 3, 2018);
+		d1.display();
+	
+		Employee e1 = new Employee();
+		//e1.display();
+		
+		Date d2 = new Date(21, 4, 2012);
+		Address a2 = new Address("kate","puaram","Pune","411061");
+		Employee e2 = new Employee(2, "shalini", 40000,"DEV", d2,a2);
+		System.out.println("Enter Increment Percentage:");
+		Scanner sc = new Scanner(System.in);
+		double basicsal = sc.nextDouble();
+		e2.appraisals(basicsal);
+		e2.display();
+	}
+}
